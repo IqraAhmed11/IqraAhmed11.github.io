@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqra Ahmed | Frontend Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-logo">IA</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-tag">— Frontend Developer</p>
+            <h1>Iqra<br><span>Ahmed</span></h1>
+            <p class="hero-sub">
+                CS student at University of Lahore building clean, responsive web experiences.
+                Passionate about turning ideas into real interfaces.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="circle c1"></div>
+            <div class="circle c2"></div>
+            <div class="grid-lines"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="section-inner">
+            <span class="section-label">01 / About</span>
+            <h2 class="section-title">Who I Am</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a 7th semester BS Computer Science student at the University of Lahore with a strong foundation in programming and a growing passion for frontend web development.
+                    </p>
+                    <p>
+                        I have hands-on experience with C++, Data Structures & Algorithms, and OOP — and I'm actively building real-world projects using HTML, CSS, and JavaScript.
+                    </p>
+                    <p>
+                        Previously interned as a <strong>Frontend Developer at Horizam</strong> and as an <strong>AR Developer at Enartifi</strong> working with Unity.
+                    </p>
+                </div>
+                <div class="about-facts">
+                    <div class="fact">
+                        <span class="fact-num">7th</span>
+                        <span class="fact-label">Semester</span>
+                    </div>
+                    <div class="fact">
+                        <span class="fact-num">2+</span>
+                        <span class="fact-label">Internships</span>
+                    </div>
+                    <div class="fact">
+                        <span class="fact-num">BSCS</span>
+                        <span class="fact-label">UOL Lahore</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+        <div class="section-inner">
+            <span class="section-label">02 / Skills</span>
+            <h2 class="section-title">What I Work With</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-github"></i>
+                    <p>GitHub</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <p>C++</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-cubes"></i>
+                    <p>Unity / AR</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+        <div class="section-inner">
+            <span class="section-label">03 / Projects</span>
+            <h2 class="section-title">Things I've Built</h2>
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <div class="project-top">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/iqraahmednawaz" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>Personal portfolio website built with HTML and CSS. Fully responsive with smooth scroll navigation.</p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-top">
+                        <i class="fa-solid fa-folder-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/iqraahmednawaz" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h3>C++ DSA Projects</h3>
+                    <p>Console-based programs implementing data structures and algorithms: linked lists, stacks, sorting algorithms.</p>
+                    <div class="project-tags">
+                        <span>C++</span><span>OOP</span><span>DSA</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="section-inner">
+            <span class="section-label">04 / Contact</span>
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-sub">I'm currently open to internship and junior developer opportunities. Feel free to reach out.</p>
+            <div class="contact-links">
+                <a href="mailto:ahmediqra511@gmail.com" class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>ahmediqra511@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/in/iqraahmednawaz/" target="_blank" class="contact-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>linkedin.com/in/iqraahmednawaz</span>
+                </a>
+                <a href="https://github.com/iqraahmednawaz" target="_blank" class="contact-item">
+                    <i class="fa-brands fa-github"></i>
+                    <span>github.com/iqraahmednawaz</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>Designed & Built by <strong>Iqra Ahmed</strong> · 2025</p>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Navbar hide/show on scroll
+        let lastY = 0;
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > lastY && window.scrollY > 80) {
+                nav.style.transform = 'translateY(-100%)';
+            } else {
+                nav.style.transform = 'translateY(0)';
+            }
+            lastY = window.scrollY;
+
+            // Add background on scroll
+            nav.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Mobile menu
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('open');
+        }
+
+        // Fade in on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) e.target.classList.add('visible');
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.skill-card, .project-card, .fact, .about-text p').forEach(el => {
+            el.classList.add('fade-up');
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
