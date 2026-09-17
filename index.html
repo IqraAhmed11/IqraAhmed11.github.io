@@ -16,6 +16,7 @@
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -62,7 +63,7 @@
                         I have hands-on experience with C++, Data Structures & Algorithms, and OOP — and I'm actively building real-world projects using HTML, CSS, and JavaScript.
                     </p>
                     <p>
-                        Previously interned as a <strong>Frontend Developer at Horizam</strong> and as an <strong>AR Developer at Enartifi</strong> working with Unity.
+                        Previously interned as a <strong>Frontend Developer at Horizam</strong>, an <strong>AR Developer at Enartifi</strong> working with Unity, and a <strong>Data Analyst at Systems Limited</strong> working with SQL Server.
                     </p>
                 </div>
                 <div class="about-facts">
@@ -71,7 +72,7 @@
                         <span class="fact-label">Semester</span>
                     </div>
                     <div class="fact">
-                        <span class="fact-num">2+</span>
+                        <span class="fact-num">3+</span>
                         <span class="fact-label">Internships</span>
                     </div>
                     <div class="fact">
@@ -113,6 +114,74 @@
                     <i class="fa-solid fa-cubes"></i>
                     <p>Unity / AR</p>
                 </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-database"></i>
+                    <p>SQL Server</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+        <div class="section-inner">
+            <span class="section-label">03 / Experience</span>
+            <h2 class="section-title">Where I've Worked</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-head">
+                            <h3>Data Analyst Intern</h3>
+                            <span class="timeline-date">Systems Limited</span>
+                        </div>
+                        <p>
+                            Worked hands-on with SQL Server / SSMS on the AdventureWorks2019 database, completing structured tasks
+                            spanning DDL/DML, Keys, JOINs, Simple &amp; Indexed Views, backup/restore, Scalar Functions,
+                            Table-Valued Functions, and String Functions — each submitted as a SQL script paired with a
+                            written understanding document.
+                        </p>
+                        <div class="project-tags">
+                            <span>SQL Server</span><span>SSMS</span><span>Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-head">
+                            <h3>AR & Mobile Development Intern</h3>
+                            <span class="timeline-date">Enartifi</span>
+                        </div>
+                        <p>
+                            Built AR experiences and mobile-facing features using Unity, working across the pipeline from
+                            asset integration to interactive prototypes.
+                        </p>
+                        <div class="project-tags">
+                            <span>Unity</span><span>AR</span><span>Mobile</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-head">
+                            <h3>Frontend Development Intern</h3>
+                            <span class="timeline-date">Horizam</span>
+                        </div>
+                        <p>
+                            Developed and styled responsive web interfaces, translating designs into clean, functional
+                            HTML/CSS/JS components.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -120,7 +189,7 @@
 <!-- PROJECTS -->
 <section class="projects section" id="projects">
     <div class="section-inner">
-        <span class="section-label">03 / Projects</span>
+        <span class="section-label">04 / Projects</span>
         <h2 class="section-title">Things I've Built</h2>
         <div class="project-grid">
 
@@ -206,7 +275,7 @@
     <!-- CONTACT -->
     <section class="contact section" id="contact">
         <div class="section-inner">
-            <span class="section-label">04 / Contact</span>
+            <span class="section-label">05 / Contact</span>
             <h2 class="section-title">Get In Touch</h2>
             <p class="contact-sub">I'm currently open to internship and junior developer opportunities. Feel free to reach out.</p>
             <div class="contact-links">
@@ -268,7 +337,7 @@
             });
         }, { threshold: 0.1 });
 
-        document.querySelectorAll('.skill-card, .project-card, .fact, .about-text p').forEach(el => {
+        document.querySelectorAll('.skill-card, .project-card, .fact, .about-text p, .timeline-item').forEach(el => {
             el.classList.add('fade-up');
             observer.observe(el);
         });
